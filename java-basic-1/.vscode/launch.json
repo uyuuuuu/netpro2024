@@ -1,0 +1,92 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "IfTest3",
+            "request": "launch",
+            "mainClass": "IfTest3",
+            "projectName": "java-basic-1_be2a6bad",
+            "args": [
+                "4"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "IfTest2",
+            "request": "launch",
+            "mainClass": "IfTest2",
+            "projectName": "java-basic-1_be2a6bad",
+            "args": [
+                "4"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "IfTest1",
+            "request": "launch",
+            "mainClass": "IfTest1",
+            "projectName": "java-basic-1_be2a6bad",
+            "args": [
+                "4"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-basic-1_be2a6bad"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalStatements",
+            "request": "launch",
+            "mainClass": "ConditionalStatements",
+            "projectName": "java-basic-1_be2a6bad"
+        },
+        {
+            "type": "java",
+            "name": "HelloArgs",
+            "request": "launch",
+            "mainClass": "HelloArgs",
+            "projectName": "java-basic-1_be2a6bad",
+            "args": [
+                "A0",
+                "A1",
+                "A2",
+                "A3"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "HowOldAreYou",
+            "request": "launch",
+            "mainClass": "HowOldAreYou",
+            "projectName": "java-basic-1_be2a6bad"
+        },
+        {
+            "type": "java",
+            "name": "KeyboardInputExample",
+            "request": "launch",
+            "mainClass": "KeyboardInputExample",
+            "projectName": "java-basic-1_be2a6bad"
+        },
+        {
+            "type": "java",
+            "name": "StringExamples",
+            "request": "launch",
+            "mainClass": "StringExamples",
+            "projectName": "java-basic-1_be2a6bad"
+        }
+    ]
+}
