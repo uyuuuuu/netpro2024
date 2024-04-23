@@ -22,11 +22,10 @@ public class NetproLabMember {
             int girl = Math.round(col[0] * (20+i)/100F);
             int boy = col[0] - girl;
             double all = kumi(col[0],col[2]);//col[0]総額整数から配属col[2]人選ぶ;
-            //System.out.println("all:"+all);
             double onlyBoy = kumi(boy,col[2]);//boyからcol[2]人選ぶ;
             ans_p *= onlyBoy/all;
         }
-        System.out.println("ans:"+ans_p);
+        System.out.println("確率:"+ans_p);
     }
     public static BigDecimal kaijo(int n){
         BigDecimal ans = BigDecimal.ONE;
