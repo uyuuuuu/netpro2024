@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Random;
 
 public class NetproLabMember {
@@ -20,24 +21,27 @@ public class NetproLabMember {
 
             int girl = Math.round(col[0] * (20+i)/100F);
             int boy = col[0] - girl;
-            System.out.println(girl+":"+boy);
-            long all = comb(col[0],col[2]);//col[0]からcol[2]人選ぶ;
-            System.out.println(all);
-            long onlyBoy = comb(boy,col[2]);//boyからcol[2]人選ぶ;
-            System.out.println(onlyBoy);
+            double all = kumi(col[0],col[2]);//col[0]総額整数から配属col[2]人選ぶ;
+            //System.out.println("all:"+all);
+            double onlyBoy = kumi(boy,col[2]);//boyからcol[2]人選ぶ;
             ans_p *= onlyBoy/all;
         }
+        System.out.println("ans:"+ans_p);
     }
-    public static long comb(int n, int r){
+    public static BigDecimal kaijo(int n){
+        BigDecimal ans = BigDecimal.ONE;
+        if(n == 0){ return ans; }
+        for(int i=n;i>=1;i--){ ans = ans.multiply(BigDecimal.valueOf(i)); }
+        return ans;
+    }
+    public static double kumi(int n, int r){
         if(n<0||r<0) {System.out.println("0以上の引数を与えること"); return 0;}
         else if(n==r) return 1;
         else if (r==0) return 1;
         else if(n==0) return 0;
-        else return kaijo(n)/kaijo(r)*kaijo(n-r);
-    }
-    public static long kaijo(int n){
-        long ans = 1;
-        for(int i=1;i<=n;i++) ans*=i;
-        return ans;
+        else {
+            double a = kaijo(n).divide(kaijo(r).multiply(kaijo(n-r))).doubleValue();
+            return a;
+        }
     }
 }
