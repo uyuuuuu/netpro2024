@@ -1,0 +1,177 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MyExceptionTest",
+            "request": "launch",
+            "mainClass": "MyExceptionTest",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "MyExceptionHoliday",
+            "request": "launch",
+            "mainClass": "MyExceptionHoliday",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "HeikinA",
+            "request": "launch",
+            "mainClass": "HeikinA",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "ClassC",
+            "request": "launch",
+            "mainClass": "ClassC",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "ClassA",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "Calc1",
+            "request": "launch",
+            "mainClass": "Calc1",
+            "projectName": "java-basic-2_be2a6bae",
+            "args": [
+                "3",
+                "5"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc2",
+            "request": "launch",
+            "mainClass": "Calc2",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "Calc2ScannerFile",
+            "request": "launch",
+            "mainClass": "Calc2ScannerFile",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTest",
+            "request": "launch",
+            "mainClass": "Calc3MethodTest",
+            "projectName": "java-basic-2_be2a6bae",
+            "args": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTestInatance",
+            "request": "launch",
+            "mainClass": "Calc3MethodTestInatance",
+            "projectName": "java-basic-2_be2a6bae",
+            "args": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ExtendedFor",
+            "request": "launch",
+            "mainClass": "ExtendedFor",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "ForTest",
+            "request": "launch",
+            "mainClass": "ForTest",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "LoopAdvance",
+            "request": "launch",
+            "mainClass": "LoopAdvance",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "PrimeCheck",
+            "request": "launch",
+            "mainClass": "PrimeCheck",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "RandSwitch",
+            "request": "launch",
+            "mainClass": "RandSwitch",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "WhileTest",
+            "request": "launch",
+            "mainClass": "WhileTest",
+            "projectName": "java-basic-2_be2a6bae"
+        },
+        {
+            "type": "java",
+            "name": "XmasTree",
+            "request": "launch",
+            "mainClass": "XmasTree",
+            "projectName": "java-basic-2_be2a6bae",
+            "args": [
+                "2",
+                "3"
+            ]
+        }
+    ]
+}
