@@ -14,7 +14,7 @@ public class HeikinB {
 	}
 	
 	HeikinB(String s){
-		this.kamokuname=s;
+		kamokuname=s;
 		
 	}
 	void initalizeScores(){

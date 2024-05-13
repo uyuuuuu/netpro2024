@@ -41,6 +41,7 @@ public class XmasTreeKadai {
                 }
                 System.out.println();
             }
+            scan.close();
         }
     }
 }

@@ -1,10 +1,10 @@
 class Kamoku {
 	String name;
 	int score;
-	private int studentid;
+	//private int studentid;
 
 	Kamoku(int s) {  // これがコンストラクタ。特殊なメソッド。クラス名と同じ。
-		score = s; 
+		score = s;
 	}
 
 // setScore というメソッドを定義する。

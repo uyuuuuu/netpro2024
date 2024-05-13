@@ -19,6 +19,7 @@ public class Calc2ScannerFile {
 				System.out.println("合計は"+(Integer.parseInt(nums[0])+Integer.parseInt(nums[1])));
 				line++;
 			}
+			scan.close();
 		}catch(FileNotFoundException e){
 			System.out.println(e);
 		}
