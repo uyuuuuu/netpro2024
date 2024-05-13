@@ -36,7 +36,7 @@ public class ChefTCPServer {
                 /////// 注文を受信 ////////
                 Object inSt = ois.readObject();
                 if (inSt instanceof String && inSt.equals("checkout")) {
-                    System.out.println("接続を終了します");
+                    System.out.println("お会計終了！接続を終了します");
                     oos.writeObject("checkout");
                     oos.flush();
                     break;
@@ -48,6 +48,8 @@ public class ChefTCPServer {
                     int dishTime = chef.getTime();
                     String dishQuality = chef.getQuality();
                     String msg = chef.getMessage();
+                    System.out.println("注文料理名："+dish);
+                    System.out.println("届いたメッセージ："+msg);
 
                     Chef response = new Chef();
                     response.setMessage(
