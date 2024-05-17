@@ -24,7 +24,7 @@ public class TaskServerWhile {
             while (true) {
                 // 受信 ois
                 TaskObject task = (TaskObject) ois.readObject();
-                if (task.input <= 0) {
+                if (task.input <= 1) {
                     System.out.println("終了");
                     break;
                 } else {

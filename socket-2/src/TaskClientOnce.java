@@ -21,10 +21,10 @@ public class TaskClientOnce {
             while(true){
                 System.out.println("数値を入力してください！");
                 inputNum = scanner.nextInt();
-                if(inputNum>0){
+                if(inputNum>1){
                     break;
                 }else{
-                    System.out.println("入力は1以上の数値にしてください。");
+                    System.out.println("入力は2以上の数値にしてください。");
                 }
             }
             TaskObject task = new TaskObject();

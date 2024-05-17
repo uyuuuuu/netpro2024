@@ -10,10 +10,6 @@ public class TaskObject implements Serializable, ITask{
 
     @Override
     public void exec() {
-        if(this.input==1){
-            this.result = 1;
-            return;
-        }
         int i = this.input;
         while(true){
             if(PrimeChecker.isPrime(i)){

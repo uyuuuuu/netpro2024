@@ -19,9 +19,9 @@ public class TaskClientWhile {
 
             while (true) {
                 // 送信 oos
-                System.out.println("正の整数を入力してください！終了する場合は0以下の値を入力してください。");
+                System.out.println("正の整数を入力してください！終了する場合は1以下の値を入力してください。");
                 int inputNum = scanner.nextInt();
-                if (inputNum <= 0) {
+                if (inputNum <= 1) {
                     // 終了したことを送信して終了する
                     TaskObject task = new TaskObject();
                     task.setExecNumber(inputNum);
