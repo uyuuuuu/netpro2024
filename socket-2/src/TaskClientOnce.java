@@ -17,8 +17,16 @@ public class TaskClientOnce {
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 
             // 送信 oos
-            System.out.println("数値を入力してください！");
-            int inputNum = scanner.nextInt();
+            int inputNum = 0;
+            while(true){
+                System.out.println("数値を入力してください！");
+                inputNum = scanner.nextInt();
+                if(inputNum>0){
+                    break;
+                }else{
+                    System.out.println("入力は1以上の数値にしてください。");
+                }
+            }
             TaskObject task = new TaskObject();
             task.setExecNumber(inputNum);
             oos.writeObject(task);//送信
