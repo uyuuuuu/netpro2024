@@ -36,7 +36,7 @@ public class XmasTCPServer {
 
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
 
-            XmasPresent present = (XmasPresent) ois.readObject();// Integerクラスでキャスト。
+            XmasPresent present = (XmasPresent) ois.readObject();
 
             String msgPresent = present.getMessage();
             System.out.println("メッセージは" + msgPresent);
@@ -53,7 +53,6 @@ public class XmasTCPServer {
             oos.flush();
 
             // close処理
-
             ois.close();
             oos.close();
             // socketの終了。
