@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-
+// 送信側
 public class MulticastClient {
     public static void main(String[] args) {
         try {
