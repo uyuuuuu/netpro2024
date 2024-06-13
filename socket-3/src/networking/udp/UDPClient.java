@@ -3,7 +3,7 @@ package networking.udp;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-
+// 送信する
 public class UDPClient {
     public static void main(String[] args) {
         DatagramSocket socket = null;
